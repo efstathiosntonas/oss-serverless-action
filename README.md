@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Deploy to AWS
-        uses: efstathiosntonas/oss-serverless-action@v1
+        uses: efstathiosntonas/oss-serverless-action@v3
         with:
           args: deploy
         env:
@@ -32,7 +32,7 @@ jobs:
 ### Deploy to a specific stage
 
 ```yaml
-- uses: efstathiosntonas/oss-serverless-action@v1
+- uses: efstathiosntonas/oss-serverless-action@v3
   with:
     args: deploy --stage production
   env:
@@ -43,7 +43,7 @@ jobs:
 ### Remove a service
 
 ```yaml
-- uses: efstathiosntonas/oss-serverless-action@v1
+- uses: efstathiosntonas/oss-serverless-action@v3
   with:
     args: remove --stage dev
   env:
