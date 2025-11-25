@@ -1,0 +1,11 @@
+name: "OSS Serverless"
+description: "Wraps the OSS Serverless Framework (osls) to enable common Serverless commands in GitHub Actions"
+author: "OSS Serverless Community"
+
+branding:
+  icon: "zap"
+  color: "orange"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
