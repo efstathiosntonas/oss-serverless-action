@@ -10,5 +10,5 @@ LABEL "com.github.actions.description"="Wraps the OSS Serverless Framework (osls
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="orange"
 
-RUN npm i -g osls
+RUN npm i -g osls@3.x
 ENTRYPOINT ["serverless"]
