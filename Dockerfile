@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.12-nodejs20-slim
+FROM nikolaik/python-nodejs:python3.12-nodejs22-slim
 
 LABEL version="1.0.0"
 LABEL repository="https://github.com/oss-serverless/github-action"
